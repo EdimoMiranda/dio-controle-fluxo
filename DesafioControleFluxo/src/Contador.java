@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
-// a classe ParametrosInvalidosException representa a exceção de negócio no sistema.
+/** @author Édimo Miranda Coelho
+ *  @since 07/2024
+ * 
+ */
+
+// a classe ParametrosInvalidosException representa a exceção de negócio no sistema
 class ParametrosInvalidosException extends Exception {
     public ParametrosInvalidosException() {
         super("O segundo parâmetro deve ser maior que o primeiro.");
